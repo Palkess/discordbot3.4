@@ -33,16 +33,20 @@ $ cd discordbot3.4
 $ python3 main.py
 ```
 
-License
-----
-
-See file `LICENSE` in the repo.
-
-
 Basic commands
 ----
 
 Under development
+
+Links
+----
+
+* Join the discussions over at the Discord API-server through https://discord.gg/0SBTUU1wZTXdsIuk 
+
+License
+----
+
+See file `LICENSE` in the repo.
 
 [discord.py]: <https://github.com/Rapptz/discord.py/tree/async>
 
