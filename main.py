@@ -26,6 +26,10 @@ def on_message(message):
 
         yield from client.send_message(message.channel, msg)
 
+    if message.content.startswith('!bot'):
+        msg = "My name is %s ! You can find my Open Source code over at https://github.com/Palkess/discordbot3.4 !" % (client.user.name)
+        yield from client.send_message(message.channel, msg)
+
     if message.content.startswith('!play'):
         if "watch" in messageSplit[1] or "v=" in messageSplit[1] or "youtube" in messageSplit[1]:
             yield from client.send_message(message.channel, "Only enter the ID in the link. you can find it after `watch?v=` in the youtube URL")
@@ -40,6 +44,7 @@ def on_message(message):
             audioplayer = voice.create_ytdl_player("https://www.youtube.com/watch?v=%s" % (messageSplit[1]))
             yield from client.send_message(message.channel, "Playing https://www.youtube.com/watch?v=%s" % (messageSplit[1]))
             audioplayer.start()
+
     if message.content.startswith("!stop"):
         global audioplayer
         # If we actually have a player active in our variable, stop it
