@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<bot>
+  <email>john@doe.com</email>
+  <password>123abc</password>
+</bot>

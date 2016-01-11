@@ -1,0 +1,11 @@
+{
+	"commands": {
+		"!hello" : "Waddup fool!",
+		"!hellkith" : "http://imgur.com/5IbxBB3",
+		"!nero" : "Nero tha best",
+		"!help" : "Tell my owner, Palkess The Wonderful, that something is weird!",
+		"!slap" : {
+			"template" : "%s hit %s in the face with a trout!"
+		}
+	}
+}
