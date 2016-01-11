@@ -8,7 +8,7 @@ This project builds on the Python module provided by https://github.com/Rapptz/d
 
 ### Plugins
 
-Discordbot3.4 uses the follwing modules and plugins to work properly:
+Discordbot3.4 uses the following modules and plugins to work properly:
 
 * [xmltodict] - An XML parser to Python's dictionary, install with `pip install xmltodict`
 * [ffmpeg] - For handling multimedia.
