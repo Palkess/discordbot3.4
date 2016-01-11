@@ -27,6 +27,12 @@ $ nano preferences.config
 Rename preferences.config.example to preferences.config and replace the values inside to fit your bot's account. 
 These settings are only stored locally and are only used to connect the bot with Discord.
 
+Start the bot by running:
+```sh
+$ cd discordbot3.4
+$ python3 main.py
+```
+
 License
 ----
 
