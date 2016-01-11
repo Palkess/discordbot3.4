@@ -6,7 +6,7 @@ This project builds on the Python module provided by https://github.com/Rapptz/d
 
 > `discord.py` is an API wrapper for Discord written in Python.
 
-### Plugins
+## Plugins
 
 Discordbot3.4 uses the following modules and plugins to work properly:
 
@@ -14,7 +14,7 @@ Discordbot3.4 uses the following modules and plugins to work properly:
 * [ffmpeg] - For handling multimedia.
 * [discord.py] - As mentioned earlier, using the API wrapper provided to use the Discord official unofficial API
 
-### Installation
+## Installation
 
 **Make sure you have the mentioned modules and plugins to continue.**
 
@@ -33,18 +33,26 @@ $ cd discordbot3.4
 $ python3 main.py
 ```
 
-Basic commands
-----
+## Basic commands
 
-Under development
+* `!commands` - Prints out all the available commands in `commands.json`
+* `!bot` - Info about the bot
+* `!play [youtubeID]` - Plays the youtube video in the General-voice channel
+* `!stop` - Stops playing the song if its active
 
-Links
-----
+Dynamic commands can be found and added in `commands.json`
+
+## //TODO
+
+* Make `!play` into a `!addsong` command instead so we can add multiple songs to a queue
+* Rebuild the structure of our json-resources into a consistent model
+* Look over the options for a menu so we can access functionality through the terminal
+
+## Links
 
 * Join the discussions over at the Discord API-server through https://discord.gg/0SBTUU1wZTXdsIuk 
 
-License
-----
+## License
 
 See file `LICENSE` in the repo.
 
