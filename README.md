@@ -1,6 +1,6 @@
 # Discordbot3.4
 
-Discordbot3.4 is a testing platform for the current official unofficial API from www.discordapp.com.
+Discordbot3.4 is a testing platform for the current [official unofficial API] from www.discordapp.com.
 
 This project builds on the Python module provided by https://github.com/Rapptz/discord.py/tree/async.
 
@@ -49,4 +49,4 @@ License
 See file `LICENSE` in the repo.
 
 [discord.py]: <https://github.com/Rapptz/discord.py/tree/async>
-
+[official unofficial API]: <https://blog.discordapp.com/the-robot-revolution-has-unofficially-begun/>
